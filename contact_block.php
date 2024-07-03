@@ -70,7 +70,8 @@ function test_input($data) {
                             <span id="frmcommenterror" class="error"><?php echo $frmcommentmsg;?></span><br>
                             <div class="elem-group">
                                 <label for="captcha">Please Enter the Captcha Text</label>
-                                <img src="captcha.php" alt="CAPTCHA" class="captcha-image"><i class="fas fa-redo refresh-captcha" aria-hidden="true"></i>
+                                <img src="captcha.php" alt="CAPTCHA" class="captcha-image">
+                                <a href="void::(0)" onclick="refreshcapcha()"><i class="fas fa-redo " aria-hidden="true"></i><a>
                                 <br>
                                 <input type="text" id="captcha" name="captcha_challenge" pattern="[A-Z]{6}">
                             </div>

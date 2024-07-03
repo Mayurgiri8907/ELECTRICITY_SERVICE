@@ -7,7 +7,7 @@
 <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
 <script src="js/custom.js"></script>
 <script src="js/validation.js"></script>
-<script src="captchajs.js"></script>
+<script src="js/captchajs.js"></script>
 <script src="https://kit.fontawesome.com/e951990370.js" crossorigin="anonymous"></script>
 </body>
 </html>
